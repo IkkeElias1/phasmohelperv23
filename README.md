@@ -13,7 +13,7 @@ Changes from the original:
 - Official ghost icons next to the names.
 - 'R' hotkey to reset evidence.
 
-Access it here: https://jobus0.github.io/phasmohelper/
+Access it here: https://ikkeelias.dk/phasmo/
 
 ![](ghost-icons/wraith.webp) ![](ghost-icons/oni.webp) ![](ghost-icons/deogen.webp)
 
@@ -23,6 +23,8 @@ MIT License
 Copyright (c) 2022 zuffdaddy
 
 Copyright (c) 2024 Jobus
+
+Copyright (c) 2024 IkkeElias
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

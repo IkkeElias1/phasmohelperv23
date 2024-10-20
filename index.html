@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>PhasmoHelper - Jobus Fork</title>
+    <title>PhasmoHelper</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <meta name="description" content="A Phasmophobia web app for help with tracking ghost evidence and information.">
-    <meta name="keywords" content="Phasmophobia, PhasmoHelper, Phasmo, Companion App, Web App, Phasmo Site">
-    <meta name="author" content="zuffdaddy, Jobus">
+    <meta name="keywords" content="Phasmophobia, PhasmoHelper, Phasmo, Companion App, Web App, Phasmo Site, IkkeElias">
+    <meta name="author" content="zuffdaddy, Jobus, IkkeElias">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 </head>
@@ -258,7 +258,7 @@
             </div>
         </div>
     </div>
-    <a href="https://github.com/Jobus0/phasmohelper" target=”_blank” class="github-icon" title="Project's GitHub page"><img src="github-mark-white.svg" style="height: 30px" alt="GitHub"></a>
+    <a href="https://github.com/ikkeelias1/phasmohelperv23" target=â€_blankâ€ class="github-icon" title="Project's GitHub page"><img src="github-mark-white.svg" style="height: 30px" alt="GitHub"></a>
 </div>
 
 <div id="bottom-content">
@@ -284,12 +284,12 @@
         </div>
         <div class="button" data-evidence="orb">Ghost Orb</div>
         <div class="button" data-evidence="writing">Ghost Writing</div>
-        <div class="button" data-evidence="box">Spirit Box</div>
+        <div class="button end-button" data-evidence="box">Spirit Box</div>
         <hr>
-        <div class="button" data-evidence-extra="earlyhunt" title="Hunt above 50% average sanity">Early Hunt</div>
-        <div class="button" data-evidence-extra="sanityloss" title="Abnormal sanity loss">Sanity Loss</div>
-        <div class="button" data-evidence-extra="fast" title="Fast movement speed during hunt">Fast</div>
-        <div class="button" data-evidence-extra="slow" title="Slow movement speed during hunt">Slow</div>
+        <div class="button" data-evidence-extra="earlyhunt">Early Hunt</div>
+        <div class="button" data-evidence-extra="sanityloss">Sanity Loss</div>
+        <div class="button" data-evidence-extra="fast">Fast</div>
+        <div class="button" data-evidence-extra="slow">Slow</div>
     </div>
     <div id="journal-minimap" class="disabled">
         <table>
@@ -348,6 +348,7 @@
                     <li>Parabolic Microphone has a chance for a unique wailing sound.</li>
                     <li>Roaming will happen often towards their target.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/Banshee">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="ultraviolet">UV</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -366,6 +367,7 @@
                     <li><span class="incense-hunt-prevention">Incense Hunt Prevention</span> is reduced from 90 seconds to 60 seconds.</li>
                     <li>Minimum hunt time cooldown is reduced from 25 seconds to 20 seconds.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/demon">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="ultraviolet">UV</li>
                     <li data-evidence="writing">Ghost Writing</li>
@@ -385,6 +387,7 @@
                     <li>Can produce a unique heavy bull-like breathing within 1 meter.</li>
                     <li>Using incense will force it to repick the nearest target when the effect runs out.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/deogen">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box" required="true">Spirit Box</li>
                     <li data-evidence="writing">Ghost Writing</li>
@@ -401,6 +404,7 @@
                     <li>Will not interact with D.O.T.S if any player is in the same room as the ghost.</li>
                     <li>Will never change room or roam long distances.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/goryo">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -413,11 +417,12 @@
                 <h3>Hantu<img src="ghost-icons/hantu.webp"></h3>
                 <ul>
                     <li><span class="when-hunting">When Hunting</span>, living players can see freezing breath from the ghost if the breaker is off, even through a video camera.</li>
-                    <li><span class="hunting-speed">Hunting Speed</span> increases depending on temperature in rooms below 15°C, up to 60% below 0°C.</li>
-                    <li><span class="hunting-speed">Hunting Speed</span> decreased by 20% in rooms above 15°C.</li>
+                    <li><span class="hunting-speed">Hunting Speed</span> increases depending on temperature in rooms below 15Â°C, up to 60% below 0Â°C.</li>
+                    <li><span class="hunting-speed">Hunting Speed</span> decreased by 20% in rooms above 15Â°C.</li>
                     <li><span class="hunting-speed">Hunting Speed</span> does not accelerate when in line of sight of a player, unlike most ghosts.</li>
                     <li>Breaker has an increased chance to be turned OFF.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/hantu">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="ultraviolet">UV</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -435,6 +440,7 @@
                     <li><span class="sanity-loss">Sanity Loss</span> of 25% occassionally if you stand within 3m of the ghost and if the breaker is ON. Also triggers an EMF 2 or 5 at the breaker.</li>
                     <li>Breaker cannot be turned OFF by ghost interaction.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/jinn">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -455,6 +461,7 @@
                     <li>Lights cannot be turned ON by ghost.</li>
                     <li>More likely to roam into unlit rooms, and therefore has a higher chance to change its ghost room if the current ghost room is lit.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/mare">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -471,6 +478,7 @@
                     <li>Can imitate traits of other ghosts, including hunting early.</li>
                     <li>Changes what traits to imitate every 30 to 120 seconds, but never during a hunt.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/mimic">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -492,6 +500,7 @@
                     <li>Multiple players can be cursed at the same time.</li>
                     <li>Using incense nearby it during a hunt will disorient it for 50% longer, meaning it will still be disoriented for a few seconds after the incense has burnt down.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/moroi">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box" required="true">Spirit Box</li>
                     <li data-evidence="freezing">Freezing Temp</li>
@@ -509,6 +518,7 @@
                     <li><span class="when-hunting">When Hunting</span>, footsteps and ghost vocalisations can only be heard within 12m of the player (same distance as electronic interference).</li>
                     <li>Produces paranormal sounds through the Parabolic Microphone more frequently.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/myling">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -527,6 +537,7 @@
                     <li>UV prints have a 75% chance of showing.</li>
                     <li>UV prints' remaining time can randomly be cut in half. Can happen multiple times in quick succession, making it possible for prints to only last for mere seconds.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/obake">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="ultraviolet" required="true">UV</li>
@@ -544,6 +555,7 @@
                     <li><span class="sanity-loss">Sanity Loss</span> of 20% instead of 10% when colliding with the target player during a ghost event.</li>
                     <li><span class="interactions">Interactions</span> happen more frequently when players are nearby.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/oni">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="freezing">Freezing Temp</li>
@@ -562,6 +574,7 @@
                     <li><span class="average-sanity-hunt">Average Sanity Hunt</span> at 60%.</li>
                     <li>Blows out lit candles, lighters, and campfires more frequently. Increases further with the number of dead players.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/onryo">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -580,6 +593,7 @@
                     <li>Ghost pictures listed in the journal will not show the ghost in the image, and will not contain any interference.</li>
                     <li>May pick a random player inside the house and walk to them no matter the distance, generating an EMF 2 reading at the player's location.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/phantom">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -598,6 +612,7 @@
                     <li><span class="sanity-loss">Sanity Loss</span> of 2% for every thrown object to all nearby players when multiple objects are thrown at once.</li>
                     <li>Activity Monitor can show similar to EMF 5 spike (jump 0 to 5 bar then drop down) due to throwing multiple objects at once.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/poltergeist">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="ultraviolet">UV</li>
@@ -614,6 +629,7 @@
                     <li><span class="average-sanity-hunt">Average Sanity Hunt</span> is increased from 50% to 65% when nearby active electrical equipment.</li>
                     <li>Interferes with electronics up to 15m (instead of 10m) away on the same floor during hunts and ghost events.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/raiju">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -631,6 +647,7 @@
                     <li><span class="hunting-speed">Hunting Speed</span> decreased by 40% when roaming.</li>
                     <li><span class="hunting-speed">Hunting Speed</span> decelerates over 2.7 seconds when returning to roaming.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/revenant">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="orb">Ghost Orb</li>
                     <li data-evidence="writing">Ghost Writing</li>
@@ -652,6 +669,7 @@
                     <li>No <span class="interactions">Interactions</span> if a player is in the same room as the ghost.</li>
                     <li>When made to appear using a Summoning Circle, a Music Box, or a Monkey Paw, it has a chance of appearing as a black shadow rather than its full form.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/shade">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="writing">Ghost Writing</li>
@@ -666,6 +684,7 @@
                     <li><span class="incense-hunt-prevention">Incense Hunt Prevention</span> is increased from 90 seconds to 180 seconds.</li>
                     <li>Note that, as per usual, using incense again will reset the timer.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/spirit">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="box">Spirit Box</li>
@@ -684,6 +703,7 @@
                     <li>Only ages when a player is in the same room as the ghost.</li>
                     <li>Its response to asking its age on the Ouija Board will also change.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/thaye">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="orb">Ghost Orb</li>
                     <li data-evidence="writing">Ghost Writing</li>
@@ -705,6 +725,7 @@
                     <li>Activity Monitor will show an initial climb then level off followed by an immediate spike indicating a double interaction.</li>
                     <li>Evidence will not be available from the alt-twin except EMF 5.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/twins">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="box">Spirit Box</li>
@@ -721,6 +742,7 @@
                     <li>Will never step in a salt pile.</li>
                     <li>May teleport to a random player, generating an EMF 2 reading at the player's location.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/wraith">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="emf">EMF 5</li>
                     <li data-evidence="box">Spirit Box</li>
@@ -736,6 +758,7 @@
                     <li><span class="average-sanity-hunt">Average Sanity Hunt</span> is increased from 50% to 80% if continuously talking near the ghost.</li>
                     <li><span class="interactions">Interactions</span> increased when continuously talking near the ghost.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/yokai">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="box">Spirit Box</li>
                     <li data-evidence="orb">Ghost Orb</li>
@@ -752,6 +775,7 @@
                     <li><span class="incense-hunt-prevention">Incense Hunt Prevention</span> will prevent the ghost from leaving the area for 90 seconds.
                     <li>More frequently closes doors fully (except locker/closet doors), and can even close exit doors without it being a ghost event or a hunt.</li>
                 </ul>
+				<a class="info-button" href="https://phasmophobia.fandom.com/wiki/yurei">More Info</a>
                 <ul class="evidence">
                     <li data-evidence="orb">Ghost Orb</li>
                     <li data-evidence="freezing">Freezing Temp</li>
