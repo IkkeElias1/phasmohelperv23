@@ -1,7 +1,7 @@
-# ![](favicon.ico) PhasmoHelper - Jobus Fork
+# ![](favicon.ico) PhasmoHelper - IkkeElias Fork
 A web app to help find ghosts in the game Phasmophobia.
 
-This is a heavily modified fork of the now-dead [phasmohelper](https://github.com/zuffdaddy/phasmohelper).
+This is a modified fork of [phasmohelper](https://github.com/jobus0/phasmohelper).
 
 Changes from the original:
 - Greatly minimalized; does away with flavor and introductory text. Focus on the game details that can't be found in-game.
@@ -12,6 +12,11 @@ Changes from the original:
 - Cursed possession toggling: the other buttons no longer disappear when you open one of them, and the description is instead placed below.
 - Official ghost icons next to the names.
 - 'R' hotkey to reset evidence.
+
+Changes by IkkeElias
+- Quick links to the wiki
+- Screensize compatibility
+
 
 Access it here: https://ikkeelias.dk/phasmo/
 
