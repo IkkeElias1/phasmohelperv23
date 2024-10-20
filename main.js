@@ -71,6 +71,14 @@ nightmareToggle.on("click", function () {
     updateGhosts();
 });
 
+$(document).on("keypress", function (e) {
+    if (e.key === "q") {
+        body.toggleClass("nightmare");
+        nightmareToggle.toggleClass("active")
+        updateGhosts();
+    }
+});
+
 function updateGhosts() {
     const foundEvidence = $("#evidence-buttons .button.positive[data-evidence]").map((i, e) => e.getAttribute("data-evidence")).get();
     const foundExtras = $("#evidence-buttons .button.positive[data-evidence-extra]").map((i, e) => e.getAttribute("data-evidence-extra")).get();
