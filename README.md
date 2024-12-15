@@ -16,7 +16,7 @@ Changes from the original:
 Changes by IkkeElias
 - Quick links to the wiki
 - Screensize compatibility
-
+- 'Q' hotkey to enable nightmare mode
 
 Access it here: https://ikkeelias.dk/phasmo/
 
